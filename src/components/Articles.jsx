@@ -23,7 +23,7 @@ const Articles = ({ articles }) => {
                 </h3>
               </Link>
               <p className="leading-relaxed mb-3">
-                {article.content[0].substring(0, 30)}...
+            vv{article.content[0].substring(0, 30)}...
               </p>
               <div className="flex items-center space-x-3">
                 <svg
